@@ -529,7 +529,7 @@ do
 	FirstX.TextLabel_2.Position = UDim2.new(0.409254879, 0, 0.181494668, 0)
 	FirstX.TextLabel_2.Size = UDim2.new(0, 41, 0, 54)
 	FirstX.TextLabel_2.Font = Enum.Font.Cartoon
-	FirstX.TextLabel_2.Text = "First"
+	FirstX.TextLabel_2.Text = ""
 	FirstX.TextLabel_2.TextColor3 = Color3.fromRGB(190, 190, 190)
 	FirstX.TextLabel_2.TextSize = 35.000
 	FirstX.TextLabel_2.TextWrapped = true
@@ -541,7 +541,7 @@ do
 	FirstX.TextLabel_3.Position = UDim2.new(0.498399824, 0, 0.181494653, 0)
 	FirstX.TextLabel_3.Size = UDim2.new(0, 62, 0, 54)
 	FirstX.TextLabel_3.Font = Enum.Font.Cartoon
-	FirstX.TextLabel_3.Text = "X"
+	FirstX.TextLabel_3.Text = "FirstX"
 	FirstX.TextLabel_3.TextColor3 = Color3.fromRGB(18, 98, 159)
 	FirstX.TextLabel_3.TextSize = 35.000
 	FirstX.TextLabel_3.TextWrapped = true
