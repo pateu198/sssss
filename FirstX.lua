@@ -2144,7 +2144,7 @@ loadToStage(0, "Setting up FirstX...");
 -- Module links contains all external dependencies of FirstX in one json module
 -- Load all modules inside moduleLinks and store them in a G Table
 
-local moduleLinks = loadstring(game:HttpGet("https://raw.githubusercontent.com/debug420/Ez-Hub/master/Modules/InitModules.lua"))()
+local moduleLinks = loadstring(game:HttpGet("https://raw.githubusercontent.com/pateu198/sssss/master/Modules/InitModules.lua"))()
 	.init(function(moduleIndex, moduleNumber, moduleName)
 
 	loadToStage(math.clamp(((1 / moduleNumber) * moduleIndex), 0.1, 0.9),
@@ -2319,7 +2319,7 @@ FirstX.Docs.MouseButton1Click:Connect(function()
 
 	if setclipboard then
 		FirstX.Docs.Text = "Copied Docs...";
-		setclipboard("https://app.archbee.io/public/PTplYowLy93mKanJeS7F9/qxmDPajUw89sP9HbZuWnt");
+		setclipboard("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
 		ezlib.newNotif(ezlib.enum.notifType.longText, "Copied to clipboard. Paste link in browser to view the docs...").play().delete();
 		wait(1);
 		FirstX.Docs.Text = oldTextDocs;
@@ -2336,7 +2336,7 @@ FirstX.Github.MouseButton1Click:Connect(function()
 	otherSectionButtonDebounce = false;
 
 	FirstX.Github.Text = "Copied";
-	pcall(function() setclipboard("https://github.com/debug420/Ez-Hub") end);
+	pcall(function() setclipboard("https://discord.gg/44TkacZxEB") end);
 	wait(2);
 	FirstX.Github.Text = oldTextGithub;
 
